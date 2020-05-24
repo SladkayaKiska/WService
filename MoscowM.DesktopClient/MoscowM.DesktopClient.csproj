@@ -18,5 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MoscowM.GeneralLogic\MoscowM.GeneralLogic.csproj" />
   </ItemGroup>
-
+ <ItemGroup>
+    <Resource Include="Fonts\118753.ttf" />
+  </ItemGroup>
 </Project>
