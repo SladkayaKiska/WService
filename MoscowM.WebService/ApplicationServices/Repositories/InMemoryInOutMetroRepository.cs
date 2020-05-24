@@ -35,7 +35,7 @@ namespace MoscowM.ApplicationServices.Repositories
 
         public Task<InOutMetro> GetInOutMetro(long id)
         {
-            return Task.FromResult(_inoutmetros.Where(mp => mp.Id == id).FirstOrDefault());
+            return Task.FromResult(_inoutmetros.Where(iom => iom.Id == id).FirstOrDefault());
         }
 
         public Task<IEnumerable<InOutMetro>> QueryInOutMetros(ICriteria<InOutMetro> criteria)
