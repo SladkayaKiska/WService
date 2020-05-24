@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>MoscowM</RootNamespace>
+    <AssemblyName>MoscowM.InOutMetroListQuery</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MoscowM.ApplicationServices.General\MoscowM.ApplicationServices.General.csproj" />
+    <ProjectReference Include="..\MoscowM.BusinessLogic\MoscowM.BusinessLogic.csproj" />
+  </ItemGroup>
+
+</Project>
